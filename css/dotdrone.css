@@ -1,0 +1,40 @@
+body { /* selector body */
+    margin: 0px;
+    font-family: 'Courier New';
+    user-select: none; /* user can not select the text */
+    background-color: black;
+    color: white;
+}
+h1 { /* selector h1 */
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(0, 255, 0); 
+    color: black;
+}
+p { /* selector paragraph */
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    border-bottom: solid;
+    border-width: 1px;
+}
+#infoText { /* selector element with ID infoText */
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    line-height: 130%;
+}
+a { /* selector element a */
+    text-decoration: none;
+    color: white;
+}
+a:hover { /* selector element a when mouse is over */
+    color: rgb(0, 255, 0); 
+}
+div.error {
+    text-decoration-line: line-through; 
+    color: rgb(0, 255, 0); 
+    font-size: 3em;
+}
